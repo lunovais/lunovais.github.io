@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+</head>
+<body>
+  <a class="voltar" href="index.html"> Pagina Inicial </a>
+    <h1>Exemplo - Gráfico de Barras</h1>
+<div class="chart-container">
+  <canvas id="chart"></canvas> <!-- <canvas id="chart" width="300" height="150"></canvas> -->
+</div>
+<form id="pollForm">
+  <div class="poll">
+    <div class="poll-heading">
+      <h3 class="poll-title">Linguagem de Programação Favorita</h3>
+    </div>
+    <div class="poll-body">
+      <ul>
+        <li>
+          <label><input type="radio" name="pollOptions" value="C++"><span>C++</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="C#"><span>C#</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Java"><span>Java</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Python"><span>Python</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Go"><span>Go</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="JavaScript"><span>JavaScript</span></label>
+        </li>
+        <li>
+          <label><input type="radio" name="pollOptions" value="Outras"><span>Outras</span></label>
+        </li>
+      </ul>
+    </div>
+    <div class="poll-footer">
+      <button type="submit">Votar</button>
+    </div>
+  </div>
+</form>
+<script src="mainbarra.js">
+
+</script>
+
+</body>
+</html>
+
+
